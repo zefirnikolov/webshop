@@ -4,11 +4,15 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className="footer">
-      <p>https://github.com/zefirnikolov/webshop</p>
-      <p>© 2025 K8s microservice architecture deployed on Azure AKS. All Rights Reserved.</p>
       <p>
-        <a href="/">Privacy Policy</a> | 
-        <a href="/">Terms of Service</a>
+        <a href="https://github.com/zefirnikolov/webshop" target="_blank" rel="noopener noreferrer">
+          GitHub Repository
+        </a>
+      </p>
+      <p>
+        <a href="https://github.com/zefirnikolov/webshop/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
+          MIT License.
+        </a>
       </p>
     </div>
   );

@@ -89,7 +89,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile-fe
-    image: zefirnikolov/webshop-fe:1
+    image: server:9
     environment:
       PRODUCTS_URL: "http://server:5000/api/products"
     depends_on:
